@@ -9,7 +9,7 @@
             <h3 class="home__education">Full Stack Developer</h3>
 
             <div class="home__buttons">
-                <a href="https://drive.google.com/file/d/1X9FhPgNwfpQm4QqT5jqeZbuqcs8tPy83/view?usp=drive_link" target="__BLANK" class="button button-ghost">
+                <a href="https://drive.google.com/file/d/1-mCAH7QQewlOyWppQob6hI0f2tpENx78/view?usp=sharing" target="__BLANK" class="button button-ghost">
                     Download CV
                 </a>
                 <a href="#about" class="button">About Me</a>
@@ -57,7 +57,7 @@
                 <div class="about__box">
                     <i class='bx bxs-briefcase-alt' ></i>
                     <h3 class="about__title">Completed</h3>
-                    <span class="about__subtitle">++ Projects</span>
+                    <span class="about__subtitle">5+ Projects</span>
                 </div>
 
                 <div class="about__box">
@@ -481,28 +481,22 @@
     </div>
 
     <div class="project__container container grid">
+        <div class="project__card data">
+            <img src="{{ asset('assets/img/sampul_mahasiswa.png') }}" alt="" class="project__img">
+
+            <h3 class="project__title">Student Dropout Predict</h3>
+
+            <a href="https://collegestudent-dropout-predict.streamlit.app/" class="project__button" target="__BLANK">
+                Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
+            </a>
+        </div>
+
         <div class="project__card web">
             <img src="{{ asset('assets/img/sampul_pkpri.png') }}" alt="" class="project__img">
 
             <h3 class="project__title">Hall Rental Information System</h3>
 
             <a href="https://pkpribangkalan.my.id" class="project__button" target="__BLANK">
-                Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
-            </a>
-        </div>
-
-        <div class="project__card ui">
-            <img src="{{ asset('assets/img/sampul_nusantara.png') }}" alt="" class="project__img">
-
-            <h3 class="project__title">UI/UX Nusantara Application</h3>
-        </div>
-
-        <div class="project__card data">
-            <img src="{{ asset('assets/img/sampul_diabetes.png') }}" alt="" class="project__img">
-
-            <h3 class="project__title">Data Science</h3>
-
-            <a href="https://klasifikasidiabetesriset.streamlit.app/" class="project__button" target="__BLANK">
                 Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
             </a>
         </div>
@@ -516,5 +510,22 @@
                 Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
             </a>
         </div>
+
+        <div class="project__card ui">
+            <img src="{{ asset('assets/img/sampul_nusantara.png') }}" alt="" class="project__img">
+
+            <h3 class="project__title">UI/UX Nusantara Application</h3>
+        </div>
+
+        <div class="project__card data">
+            <img src="{{ asset('assets/img/sampul_diabetes.png') }}" alt="" class="project__img">
+
+            <h3 class="project__title">Diabetes Classification</h3>
+
+            <a href="https://diabetes-klasifikasi.streamlit.app/" class="project__button" target="__BLANK">
+                Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
+            </a>
+        </div>
+
     </div>
 </section>
