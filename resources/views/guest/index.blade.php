@@ -9,7 +9,7 @@
             <h3 class="home__education">Full Stack Developer</h3>
 
             <div class="home__buttons">
-                <a href="https://drive.google.com/file/d/1-mCAH7QQewlOyWppQob6hI0f2tpENx78/view?usp=sharing" target="__BLANK" class="button button-ghost">
+                <a href="https://drive.google.com/file/d/1SYIAHRh8YGsJmmXSeMDBTrXJugzqpgg4/view?usp=sharing" target="__BLANK" class="button button-ghost">
                     Download CV
                 </a>
                 <a href="#about" class="button">About Me</a>
@@ -51,7 +51,7 @@
                 <div class="about__box">
                     <i class='bx bx-award' ></i>
                     <h3 class="about__title">Experience</h3>
-                    <span class="about__subtitle">Student College & 7 Month Internship</span>
+                    <span class="about__subtitle">Fresh Graduate & 7 Month Internship</span>
                 </div>
 
                 <div class="about__box">
@@ -280,6 +280,15 @@
                             <span class="skills__level">Advanced</span>
                         </div>
                     </div>
+
+                    <div class="skills__data">
+                        <i class='bx bxs-badge-check' ></i>
+
+                        <div>
+                            <h3 class="skills__name">Wordpress</h3>
+                            <span class="skills__level">Intermediate</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -295,6 +304,15 @@
                         <div>
                             <h3 class="skills__name">PHP</h3>
                             <span class="skills__level">Advanced</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <i class='bx bxs-badge-check' ></i>
+
+                        <div>
+                            <h3 class="skills__name">Wordpress</h3>
+                            <span class="skills__level">Intermediate</span>
                         </div>
                     </div>
 
@@ -481,22 +499,32 @@
     </div>
 
     <div class="project__container container grid">
-        <div class="project__card data">
-            <img src="{{ asset('assets/img/sampul_mahasiswa.png') }}" alt="" class="project__img">
+        <div class="project__card web">
+            <img src="{{ asset('assets/img/sampul_digital.png') }}" alt="" class="project__img">
 
-            <h3 class="project__title">Student Dropout Predict</h3>
+            <h3 class="project__title">Mostly Digital Information System</h3>
 
-            <a href="https://collegestudent-dropout-predict.streamlit.app/" class="project__button" target="__BLANK">
+            <a href="https://mostlydigital.urbeing.web.id/" class="project__button" target="__BLANK">
                 Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
             </a>
         </div>
 
-        <div class="project__card web">
-            <img src="{{ asset('assets/img/sampul_pkpri.png') }}" alt="" class="project__img">
+        <div class="project__card data">
+            <img src="{{ asset('assets/img/sampul_diabetes.png') }}" alt="" class="project__img">
 
-            <h3 class="project__title">Hall Rental Information System</h3>
+            <h3 class="project__title">Diabetes Classification</h3>
 
-            <a href="https://pkpribangkalan.my.id" class="project__button" target="__BLANK">
+            <a href="https://diabetes-klasifikasi.streamlit.app/" class="project__button" target="__BLANK">
+                Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
+            </a>
+        </div>
+
+        <div class="project__card ui">
+            <img src="{{ asset('assets/img/sampul_nusantara.png') }}" alt="" class="project__img">
+
+            <h3 class="project__title">UI/UX Nusantara Application</h3>
+
+            <a href="https://www.figma.com/proto/OFKwpZf5qG1G8c4HvxLGTt/Nusantara?node-id=5-4&starting-point-node-id=5%3A4" class="project__button" target="__BLANK">
                 Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
             </a>
         </div>
@@ -511,21 +539,34 @@
             </a>
         </div>
 
-        <div class="project__card ui">
-            <img src="{{ asset('assets/img/sampul_nusantara.png') }}" alt="" class="project__img">
+        <div class="project__card web">
+            <img src="{{ asset('assets/img/sampul_pkpri.png') }}" alt="" class="project__img">
 
-            <h3 class="project__title">UI/UX Nusantara Application</h3>
-        </div>
+            <h3 class="project__title">Hall Rental Information System</h3>
 
-        <div class="project__card data">
-            <img src="{{ asset('assets/img/sampul_diabetes.png') }}" alt="" class="project__img">
-
-            <h3 class="project__title">Diabetes Classification</h3>
-
-            <a href="https://diabetes-klasifikasi.streamlit.app/" class="project__button" target="__BLANK">
+            <a href="https://pkpribangkalan.my.id" class="project__button" target="__BLANK">
                 Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
             </a>
         </div>
 
+        <div class="project__card data">
+            <img src="{{ asset('assets/img/sampul_mahasiswa.png') }}" alt="" class="project__img">
+
+            <h3 class="project__title">Student Dropout Predict</h3>
+
+            <a href="https://collegestudent-dropout-predict.streamlit.app/" class="project__button" target="__BLANK">
+                Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
+            </a>
+        </div>
+
+        <div class="project__card web">
+            <img src="{{ asset('assets/img/sampul_jokotole.png') }}" alt="" class="project__img">
+
+            <h3 class="project__title">Jokotole Information System</h3>
+
+            <a href="https://jokotole.urbeing.web.id/" class="project__button" target="__BLANK">
+                Demo <i class='bx bx-right-arrow-alt project__icon' ></i>
+            </a>
+        </div>
     </div>
 </section>
