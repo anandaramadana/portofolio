@@ -9,7 +9,7 @@
             <h3 class="home__education">Full Stack Developer</h3>
 
             <div class="home__buttons">
-                <a href="https://drive.google.com/file/d/1SYIAHRh8YGsJmmXSeMDBTrXJugzqpgg4/view?usp=sharing" target="__BLANK" class="button button-ghost">
+                <a href="https://drive.google.com/file/d/1-OlUk98ga2Q0vPSWgBhYSOrk6PkfH59p/view?usp=sharing" target="__BLANK" class="button button-ghost">
                     Download CV
                 </a>
                 <a href="#about" class="button">About Me</a>
@@ -367,7 +367,7 @@
         </div>
 
         <div class="skills__content">
-            <h3 class="skills__title">DevOps</h3>
+            <h3 class="skills__title">Productivity Tools</h3>
 
             <div class="skills__box">
                 <div class="skills__group">
@@ -388,6 +388,15 @@
                             <span class="skills__level">Intermediate</span>
                         </div>
                     </div>
+
+                    <div class="skills__data">
+                        <i class='bx bxs-badge-check' ></i>
+
+                        <div>
+                            <h3 class="skills__name">Microsoft Office (Word, Excel, Outlook)</h3>
+                            <span class="skills__level">Advanced</span>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="skills__group">
@@ -396,6 +405,15 @@
 
                         <div>
                             <h3 class="skills__name">Github</h3>
+                            <span class="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <i class='bx bxs-badge-check' ></i>
+
+                        <div>
+                            <h3 class="skills__name">Google Workspace</h3>
                             <span class="skills__level">Intermediate</span>
                         </div>
                     </div>
